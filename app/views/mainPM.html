@@ -1,0 +1,483 @@
+
+
+<div><ng-include src="'app/page-header.html'"></ng-include></div>
+
+
+<!-- END HEADER -->
+<div class="clearfix">
+</div>
+<!-- BEGIN CONTAINER -->
+<div class="container-fluid" style="padding-left: 0; padding-right: 0;">
+    <div class="page-container">
+        <!-- BEGIN SIDEBAR -->
+        <div><ng-include src="'app/page-sidebar.html'"></ng-include></div>
+        <!-- END SIDEBAR -->
+        <!-- BEGIN CONTENT -->
+        <div class="page-content-wrapper">
+            <div class="page-content">
+                <nav class="navbar navbar-default under-menu" role="navigation">
+                    <div class="container-fluid header-menu">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav navbar-left">
+                                <li><a href="#">Информация по задаче<span class="badge">42</span></a></li>
+                                <li><a href="#">Доступы к задаче<span class="badge">12</span></a></li>
+                                <li class="dropdown-header-menu">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Дополнительно<b class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Финансы<span class="badge">1</span></a></li>
+                                        <li><a href="#">Отчетность<span class="badge">2</span></a></li>
+                                        <li><a href="#">История изменений<span class="badge">3</span></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a class="btn-detline" href="#">Сменить детлайн</a></li>
+                                <li><a class="btn-otchet" href="#">Отправить отчет</a></li>
+                                <li><a class="btn-prov" href="#">Отправить на проверку</a></li>
+                            </ul>
+                        </div><!-- /.navbar-collapse -->
+                    </div><!-- /.container-fluid -->
+                </nav>
+                <ol class="breadcrumb">
+                    <li><i class="icon-home min-home"></i><a class="bread-a" href="#">bxON</a></li>
+                    <li><a class="bread-a" href="#">Задачи</a></li>
+                    <li class="active-bread">Доработка Geo IP</li>
+                </ol>
+                <div class="content">
+
+                    <div class="todo-main-header">
+                        <h3>Режим - Проект-Менеджера (PM)</h3>
+                        <ul class="todo-breadcrumb">
+                            <li>
+                                <a href="javascrip:;">Одноразовые</a>
+                            </li>
+                            <li>
+                                <a href="javascrip:;">Абоненские</a>
+                            </li>
+                            <li>
+                                <a class="todo-active" href="javascrip:;">Все задачи</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="todo-container">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <ul class="todo-projects-container">
+                                    <li class="todo-padding-b-0">
+                                        <div class="todo-head">
+                                            <button class="btn-blue" data-toggle="modal" href="#todo-task-modal">
+                                                Добавить проект
+                                            </button>
+                                            <h3>Проекты</h3>
+                                            <div class="todo-main-header todo_custom_breadcrumb ">
+                                                <ul class="todo-breadcrumb">
+                                                    <li>
+                                                        <a href="javascrip:;">45 одноразовых</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="todo-active" href="javascrip:;">6 Абоненских</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                    </li>
+                                    <li class="todo-projects-item todo-active">
+                                        <h3>Yandex.ru</h3>
+                                        <p>Описание проекта, проект по доработке выполняется одноразово, работы через GIT или SVN. Тестовая версия...</p>
+                                        <div class="todo-project-item-foot">
+                                            <p class="todo-red todo-inline">17 задач в работе</p>
+                                            <p class="todo-inline todo-float-r"> <i class="icon-check"></i> Иванов Иван Иванович <i class="icon-ghost"></i> 1 Наблюдатель
+
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <div class="todo-projects-divider"></div>
+                                    <li class="todo-projects-item ">
+                                        <h3 class="todo-blue">Williams Logistics CRM</h3>
+                                        <p>Lorem dolor sit amet ipsum dolor sit consectetuer dolore. Lorem dolor sit amet ipsum dolor sit consectetuer dolore.</p>
+                                        <div class="todo-project-item-foot">
+                                            <p class="todo-red todo-inline">43 Tasks Remaining</p>
+                                            <p class="todo-inline todo-float-r">32 Members
+                                                <a class="todo-add-button" href="#" data-toggle="modal">+</a>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <div class="todo-projects-divider"></div>
+                                    <li class="todo-projects-item">
+                                        <h3>Green Man &amp; Van Tracking App</h3>
+                                        <p>Lorem dolor sit amet ipsum dolor sit consectetuer dolore. Lorem dolor sit amet ipsum dolor sit consectetuer dolore.</p>
+                                        <div class="todo-project-item-foot">
+                                            <p class="todo-red todo-inline">5 Tasks Remaining</p>
+                                            <p class="todo-inline todo-float-r">9 Members
+                                                <a class="todo-add-button" href="#" data-toggle="modal">+</a>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <div class="todo-projects-divider"></div>
+                                    <li class="todo-projects-item">
+                                        <h3>Wall Mart Customer Care</h3>
+                                        <p>Lorem dolor sit amet ipsum dolor sit consectetuer dolore. Lorem dolor sit amet ipsum dolor sit consectetuer dolore.</p>
+                                        <div class="todo-project-item-foot">
+                                            <p class="todo-red todo-inline">27 Tasks Remaining</p>
+                                            <p class="todo-inline todo-float-r">54 Members
+                                                <a class="todo-add-button" href="#" data-toggle="modal">+</a>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <div class="todo-projects-divider"></div>
+                                    <li class="todo-projects-item">
+                                        <h3>General Electric Website</h3>
+                                        <p>Lorem dolor sit amet ipsum dolor sit consectetuer dolore. Lorem dolor sit amet ipsum dolor sit consectetuer dolore.</p>
+                                        <div class="todo-project-item-foot">
+                                            <p class="todo-red todo-inline">11 Tasks Remaining</p>
+                                            <p class="todo-inline todo-float-r">9 Members
+                                                <a class="todo-add-button" href="#" data-toggle="modal">+</a>
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="todo-tasks-container">
+                                    <div class="todo-head">
+                                        <button class="btn-red" data-toggle="modal" href="#">
+                                            Добавить задачу
+                                        </button>
+                                        <h3>
+                                            <span class="todo-grey">Задачи:</span> yandex.ru</h3>
+                                        <div class="todo-main-header todo_custom_breadcrumb">
+                                            <ul class="todo-breadcrumb">
+                                                <li>
+                                                    <a href="javascrip:;">Все задачи</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascrip:;">В работе</a>
+                                                </li>
+                                                <li>
+                                                    <a class="todo-active" href="javascrip:;">На проверке</a>
+                                                </li>
+
+                                                <li>
+                                                    <a href="javascrip:;">На доработке</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <ul class="todo-tasks-content">
+                                        <li class="todo-tasks-item  text-center">
+                                            <h4>
+                                                <a data-toggle="modal" href="#todo-task-modal">Доработка GEO IP в системе Битрикс</a>
+                                            </h4><br>
+                                            <div class="todo-tasklist-controls pull-left">
+                                        <span class="todo-tasklist-date">
+                                           <i class="fa fa-calendar-o" aria-hidden="true"></i> 21 Сентября 2016
+                                           <i class="fa fa-money" aria-hidden="true"></i> 7000 / 10 000 Р
+                                        </span>
+                                                <i class="fa fa-user" aria-hidden="true"></i> 7000 / 10 000 Р
+                                                <span class="todo-tasklist-badge badge badge-roundless">В работе</span>
+                                            </div>
+                                            <p class="todo-inline todo-float-r">
+                                            </p><div class="dropdown dropdown-user cust_drop">
+                                            <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                                                <span class="username username-hide-on-mobile"> 2 разработчика</span>
+                                            </a>
+                                            <ul class="dropdown-menu dropdown-menu-default">
+                                                <li>
+                                                    <a href="">
+                                                        <i class="icon-user"></i> Иван Иванов Иванов </a>
+                                                </li>
+                                                <li>
+                                                    <a href="">
+                                                        <i class="icon-user"></i> Иван Иванов Иванов2 </a>
+                                                </li>
+                                            </ul>
+                                        </div>,
+                                            <span class="todo-red">
+                                                <div class="dropdown dropdown-user cust_drop">
+                                                    <span href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                                                    <span class="username username-hide-on-mobile"> Сегодня</span>
+                                                </span>
+                                                    <ul class="dropdown-menu dropdown-menu-default cust_mod_right">
+                                                        <li>
+                                                            <a href="http://bxon.vung.ru/admin_2/page_user_profile_1.html">
+                                                                <i class="icon-calendar"></i> 10 июля 2020 </a>
+                                                        </li>
+                                                    </ul>
+                                                </div></span>
+                                            <p></p>
+                                        </li>
+                                        <li class="todo-tasks-item">
+                                            <h4 class="todo-inline">
+                                                <a data-toggle="modal" href="#todo-task-modal">Owl carousel pagination animation issue(clients logo, testimonials)</a>
+                                            </h4>
+                                            <p class="todo-inline todo-float-r">Shane,
+                                                <span class="todo-red">TODAY</span>
+                                            </p>
+                                        </li>
+                                        <li class="todo-tasks-item">
+                                            <h4 class="todo-inline">
+                                                <a data-toggle="modal" href="#todo-task-modal">Non fixed Home 2 header layout</a>
+                                            </h4>
+                                            <p class="todo-inline todo-float-r">Sean,
+                                                <span class="todo-green">01 OCT</span>
+                                            </p>
+                                        </li>
+                                        <li class="todo-tasks-item">
+                                            <h4 class="todo-inline">
+                                                <a data-toggle="modal" href="#todo-task-modal">Sample Images for Mega Menu Components Category</a>
+                                            </h4>
+                                            <p class="todo-inline todo-float-r">Shane,
+                                                <span class="todo-green">03 OCT</span>
+                                            </p>
+                                        </li>
+                                        <li class="todo-tasks-item">
+                                            <h4 class="todo-inline">
+                                                <a data-toggle="modal" href="#todo-task-modal">Browser &amp; Device Compatibility</a>
+                                            </h4>
+                                            <p class="todo-inline todo-float-r">Bob,
+                                                <span class="todo-green">07 OCT</span>
+                                            </p>
+                                        </li>
+                                        <li class="todo-tasks-item">
+                                            <h4 class="todo-inline">
+                                                <a data-toggle="modal" href="#todo-task-modal">Sidebar Menu for Mobile</a>
+                                            </h4>
+                                            <p class="todo-inline todo-float-r">Alice,
+                                                <span class="todo-green">08 OCT</span>
+                                            </p>
+                                        </li>
+                                        <li class="todo-tasks-item">
+                                            <h4 class="todo-inline">
+                                                <a data-toggle="modal" href="#todo-task-modal">Sidebar Toggler optimization</a>
+                                            </h4>
+                                            <p class="todo-inline todo-float-r">Luke,
+                                                <span class="todo-green">08 OCT</span>
+                                            </p>
+                                        </li>
+                                        <li class="todo-tasks-item">
+                                            <h4 class="todo-inline">
+                                                <a data-toggle="modal" href="#todo-task-modal">Modals integration</a>
+                                            </h4>
+                                            <p class="todo-inline todo-float-r">John,
+                                                <span class="todo-green">10 OCT</span>
+                                            </p>
+                                        </li>
+                                        <li class="todo-tasks-item">
+                                            <h4 class="todo-inline">
+                                                <a data-toggle="modal" href="#todo-task-modal">Modals form functionality</a>
+                                            </h4>
+                                            <p class="todo-inline todo-float-r">Rudy,
+                                                <span class="todo-green">12 OCT</span>
+                                            </p>
+                                        </li>
+                                        <li class="todo-tasks-item">
+                                            <h4 class="todo-inline">
+                                                <a data-toggle="modal" href="#todo-task-modal">Responsive Optimization</a>
+                                            </h4>
+                                            <p class="todo-inline todo-float-r">Bob,
+                                                <span class="todo-green">15 OCT</span>
+                                            </p>
+                                        </li>
+                                        <li class="todo-tasks-item">
+                                            <h4 class="todo-inline">
+                                                <a data-toggle="modal" href="#todo-task-modal">Search and filter functionality testing</a>
+                                            </h4>
+                                            <p class="todo-inline todo-float-r">Hiro,
+                                                <span class="todo-green">24 OCT</span>
+                                            </p>
+                                        </li>
+                                        <li class="todo-tasks-item">
+                                            <h4 class="todo-inline">
+                                                <a data-toggle="modal" href="#todo-task-modal">User Acceptance Test Documentation</a>
+                                            </h4>
+                                            <p class="todo-inline todo-float-r">Kathy,
+                                                <span class="todo-green">28 OCT</span>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div id="todo-task-modal" class="modal fade" role="dialog" aria-labelledby="myModalLabel10" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Добавить проект</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-lg-3  col-md-3 col-sm-3 col-xs-3 text-right input-name">
+                                            Проект менеджер<sup>*</sup>
+                                        </div>
+                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 text-center">
+                                            <select class="form-control">
+                                                <option>Я</option>
+                                                <option>Иван Иванов</option>
+                                                <option>Иван Иванов2</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-3  col-md-3 col-sm-3 col-xs-3 text-right input-name">
+                                            Заказчик<sup>*</sup>
+                                        </div>
+                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9  text-center ">
+                                            <select class="form-control">
+                                                <option>Иван Иванов</option>
+                                                <option>Иван Иванов2</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-3  col-md-3 col-sm-3 col-xs-3 text-right input-name">
+                                            Название <sup>*</sup>
+                                        </div>
+                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9  text-center ">
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-lg-3  col-md-3 col-sm-3 col-xs-3 text-right input-name">
+                                            Тип проекта <sup>*</sup>
+                                        </div>
+                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9  text-center" class="form-control">
+                                            <label class="radio-inline"><input type="radio" name="optradio" checked>Одноразовый</label>
+                                            <label class="radio-inline"><input type="radio" name="optradio">Многоразовый</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-3  col-md-3 col-sm-3 col-xs-3 text-right input-name">
+                                            Описание
+                                        </div>
+                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9  " class="form-control">
+                                            <input type="text" id="project-description">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-3  col-md-3 col-sm-3 col-xs-3 text-right input-name">
+                                            Файлы <a class="todo-add-button" href="javascrip:;">+</a>
+                                        </div>
+                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 files">
+                                            <div class="todo-task-file col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                                <i class="fa fa-file-o todo-grey"></i> comments.jpg
+                                                <i class="fa fa-times todo-remove-file"></i>
+                                            </div>
+                                            <div class="todo-task-file col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                                <i class="fa fa-file-o todo-grey"></i> comments.jpg
+                                                <i class="fa fa-times todo-remove-file"></i>
+                                            </div>
+                                            <div class="todo-task-file col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                                <i class="fa fa-file-o todo-grey"></i> comments.jpg
+                                                <i class="fa fa-times todo-remove-file"></i>
+                                            </div>
+                                            <div class="todo-task-file col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                                <i class="fa fa-file-o todo-grey"></i> comments.jpg
+                                                <i class="fa fa-times todo-remove-file"></i>
+                                            </div>
+                                            <div class="todo-task-file col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                                <i class="fa fa-file-o todo-grey"></i> comments.jpg
+                                                <i class="fa fa-times todo-remove-file"></i>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn default" data-dismiss="modal" aria-hidden="true">Отмена</button>
+                                    <button class="btn default" data-toggle="modal" href="#todo-task-modal-2" data-dismiss="modal">Далее</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="todo-task-modal-2" class="modal fade" role="dialog" aria-labelledby="myModalLabel10" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+
+                                    <h4 class="modal-title">Рабочие доступы</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="rules">
+                                        <div class="rules-content">
+                                            Пишите все с новой строки.
+                                            Для вставки заголовка напишите перед ним три решетки,например:
+                                            <div class="example text-center">###FTP</div>
+                                            Для вставки поля напишите строку с нужными данными.
+                                            Чтобы вставить поле и надпись, напишите саму надпись, двоеточие, пробел
+                                            и данные, например:
+                                            <div class="example text-center">логин: user</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-lg-3  col-md-3 col-sm-3 col-xs-3 text-right input-name">
+                                            Админ панель
+                                        </div>
+                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9  text-center ">
+                                            <textarea class="form-control" rows="3"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-3  col-md-3 col-sm-3 col-xs-3 text-right input-name">
+                                            FTP&SSH
+                                        </div>
+                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9  text-center ">
+                                            <textarea class="form-control" rows="3"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-3  col-md-3 col-sm-3 col-xs-3 text-right input-name">
+                                            Другие
+                                        </div>
+                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9  text-center ">
+                                            <textarea class="form-control" rows="3"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-3  col-md-3 col-sm-3 col-xs-3 text-right input-name">
+                                            Показывать тестовые доступы
+                                        </div>
+                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 ">
+                                            <input type="checkbox" >
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <button class="btn default" data-dismiss="modal" aria-hidden="true">Отмена</button>
+                                    <button class="btn green" data-dismiss="modal">Готово</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- END QUICK SIDEBAR -->
+        </div>
+        <!-- END CONTENT -->
+    </div>
+    <!-- END CONTAINER -->
+    <!-- BEGIN FOOTER -->
+    <!-- END FOOTER -->
+</div>
+
+<script>
+    simplemde = new SimpleMDE({ element: document.getElementById("project-description") });
+</script>

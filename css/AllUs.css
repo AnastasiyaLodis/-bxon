@@ -1,0 +1,187 @@
+.btn-add-user {
+    background-color: red;
+}
+
+.ul .li .a .btn-add-user{
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover.btn-add-user {
+    color: #fff;
+    background-color: #c51818;
+}
+
+.all-show-user {
+    padding: 15px 0 0 0;
+    border-radius: 0;
+    border: none;
+}
+
+.portlet.light.portlet-fit {
+    padding: 0;
+    box-shadow: rgba(0, 0, 0, 0.2) 3px 3px 2px;
+}
+.portlet.light {
+    padding: 12px 20px 15px;
+    background-color: #fff;
+}
+.portlet {
+    margin-top: 0;
+    margin-bottom: 25px;
+    padding: 0;
+}
+
+.portlet-body {
+    padding: 15px;
+}
+
+.portlet.light.portlet-fit>.portlet-body {
+    padding: 10px 20px 20px;
+}
+
+.portlet.light.portlet-fit>.portlet-title {
+    padding: 15px 20px 10px;
+}
+.portlet.light>.portlet-title {
+    padding: 0;
+    min-height: 48px;
+}
+.portlet>.portlet-title {
+    border-bottom: 1px solid #eee;
+    padding: 0;
+    margin-bottom: 10px;
+    min-height: 41px;
+}
+
+/* Базовый контейнер табов */
+.tabs {
+    min-width: 320px;
+    max-width: 1120px;
+    padding: 0px;
+}
+/* стили секций с содержанием */
+section {
+    display: none;
+    padding: 15px;
+    background: #fff;
+}
+.tabs input {
+    display: none;
+}
+/* стили вкладок (табов) */
+.tabs label {
+    display: inline-block;
+    margin: 0 0 -1px;
+    padding: 15px 25px;
+    font-weight: 600;
+    text-align: center;
+    color: #aaa;
+    border: 1px solid #ddd;
+    background: #f1f1f1;
+    border-radius: 3px 3px 0 0;
+}
+/* шрифт-иконки от Font Awesome в формате Unicode */
+.tabs label:before {
+    font-family: fontawesome;
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+.tabs label[for*="2"]:before {
+    content: "\f17a";
+}
+.tabs label[for*="3"]:before {
+    content: "\f13b";
+}
+.tabs label[for*="4"]:before {
+    content: "\f13c";
+}
+/* изменения стиля заголовков вкладок при наведении */
+.tabs label:hover {
+    color: #888;
+    cursor: pointer;
+}
+/* стили для активной вкладки */
+.tabs input:checked + label {
+    color: #555;
+    border: 1px solid #ddd;
+    border-top: 2px solid #51c9d0;
+    border-bottom: 1px solid #fff;
+    background: #fff;
+}
+/* активация секций с помощью переключателя :checked */
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4 {
+    display: block;
+}
+/* медиа запросы для различных типов носителей */
+@media screen and (max-width: 680px) {
+    .tabs label {
+        font-size: 0;
+    }
+
+    .tabs label:before {
+        margin: 0;
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .tabs label {
+        padding: 15px;
+    }
+}
+
+.mt-element-card .mt-card-item {
+    border: 1px solid #e7ecf1;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.mt-element-card .mt-card-item .mt-card-avatar {
+    margin-bottom: 15px;
+}
+
+.mt-element-card .mt-card-item .mt-card-content {
+    text-align: center;
+}
+
+.mt-element-card .mt-card-item .mt-card-content .mt-card-name {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.mt-element-card .mt-card-item .mt-card-content .mt-card-desc {
+    font-size: 14px;
+    margin: 0 0 10px;
+}
+
+.mt-element-card .mt-card-item .mt-card-content .mt-card-social>ul {
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.mt-element-card .mt-card-item .mt-card-content .mt-card-social>ul>li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 3px;
+}
+
+.mt-element-card .mt-card-item .mt-card-content .mt-card-social>ul>li>a {
+    color: #000;
+    font-size: 18px;
+}
+
+.mt-element-card .mt-card-item .mt-card-content .mt-card-social>ul>li>a:hover {
+    color: #17c3ba;
+    font-size: 18px;
+}
+
+.mt-card-telephone {
+    margin: 5px 0 5px 0;
+    font-size: 11px;
+}
+
+

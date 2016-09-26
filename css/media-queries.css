@@ -1,0 +1,32 @@
+@media (max-width: 2560px) {
+    .content {
+        min-height: 1000px;
+    }
+
+    .chat {
+        min-height: 1000px;
+        width: 80%;
+    }
+
+    .chat-message {
+        width: 67%;
+    }
+
+    .settings {
+        min-height: 1000px;
+        width: 20%;
+    }
+
+    .chat-content {
+        min-height: 900px;
+    }
+
+    .settings-menu {
+        min-height: 918px;
+    }
+
+    .horizontal-click > :checked + label + * {
+        overflow: auto;
+        height: auto;
+    }
+}

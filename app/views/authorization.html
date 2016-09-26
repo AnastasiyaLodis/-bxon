@@ -1,0 +1,35 @@
+<div class="container for-form">
+
+    <div class="form-autorization" >
+        <div class="row">
+            <h2 class="signIn"><b>Вход</b></h2>
+        </div>
+
+        <form name='AuthForm'  novalidate>
+            <div class="form-group">
+                <input ng-model="login" name="login" type="email"   required   class="form-control formContr"  placeholder="Логин">
+            </div>
+            <div class="form-group">
+                <input  ng-model="password" name= "password"  type="password"  required  class="form-control formContr" placeholder="Пароль">
+            </div>
+            <div class="form-actions">
+                <button  ng-click="Login()" ng-disabled='AuthForm.$invalid'  class="btn btn-success uppercase">Войти</button>
+                <label class="rememberme check">
+                    <input type="checkbox" name="remember"  value="1" class="checker"/> Запомнить </label>
+                <a  id="forget-password" class="forget-password">Забыли пароль?</a>
+            </div>
+        </form>
+
+
+
+        <div class="create-account">
+            <a href="#" id="register-btn" class="createAcc">Создать аккаунт</a>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid copyright">
+    2016 © Bxon.
+</div>
+
+
