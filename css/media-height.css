@@ -44,6 +44,48 @@
         height: 492px;
     }
 
+    .minset {
+        height: 682px;
+    }
+
+    .min-settings-header {
+        background-color: #2a3644;
+        padding: 5px 12px;
+        margin: 0;
+    }
+    .min-settings-check-list {
+        background-color: #008e85;
+        padding: 10px 12px;
+        margin: 0;
+    }
+
+    .min-settings-podzadachi {
+        background-color: #008279;
+        padding: 10px 12px;
+        margin: 0;
+    }
+
+    .min-settings-chats {
+        background-color: #0b73ab;
+        padding: 10px 12px;
+        margin: 0;
+    }
+
+    .min-settings-nastroiki {
+        background-color: #0c94dc;
+        padding: 10px 12px;
+        margin: 0;
+    }
+
+
+    .min-settings-spravka {
+        background-color: #41b1dc;
+        padding: 10px 12px;
+        margin: 0;
+    }
+
+
+
     .page-content-wrapper .page-content {
         min-height: 809px;
     }
@@ -108,6 +150,46 @@
         height: 347px;
     }
 
+    .minset {
+        height: 539px;
+    }
+
+    .min-settings-header {
+        background-color: #2a3644;
+        padding: 5px 5px;
+        margin: 0;
+    }
+    .min-settings-check-list {
+        background-color: #008e85;
+        padding: 10px 5px;
+        margin: 0;
+    }
+
+    .min-settings-podzadachi {
+        background-color: #008279;
+        padding: 10px 5px;
+        margin: 0;
+    }
+
+    .min-settings-chats {
+        background-color: #0b73ab;
+        padding: 10px 5px;
+        margin: 0;
+    }
+
+    .min-settings-nastroiki {
+        background-color: #0c94dc;
+        padding: 10px 5px;
+        margin: 0;
+    }
+
+
+    .min-settings-spravka {
+        background-color: #41b1dc;
+        padding: 10px 5px;
+        margin: 0;
+    }
+
     .page-content-wrapper .page-content {
         min-height: 663px;
     }
@@ -155,6 +237,46 @@
     .horizontal-click > :checked + label + * {
         overflow: auto;
         height: 272px;
+    }
+
+    .minset {
+        height: 462px;
+    }
+
+    .min-settings-header {
+        background-color: #2a3644;
+        padding: 5px 5px;
+        margin: 0;
+    }
+    .min-settings-check-list {
+        background-color: #008e85;
+        padding: 10px 5px;
+        margin: 0;
+    }
+
+    .min-settings-podzadachi {
+        background-color: #008279;
+        padding: 10px 5px;
+        margin: 0;
+    }
+
+    .min-settings-chats {
+        background-color: #0b73ab;
+        padding: 10px 5px;
+        margin: 0;
+    }
+
+    .min-settings-nastroiki {
+        background-color: #0c94dc;
+        padding: 10px 5px;
+        margin: 0;
+    }
+
+
+    .min-settings-spravka {
+        background-color: #41b1dc;
+        padding: 10px 5px;
+        margin: 0;
     }
 
     .page-sidebar .page-sidebar-menu > li > a,

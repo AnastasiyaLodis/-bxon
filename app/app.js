@@ -45,7 +45,7 @@ adminApp.run(function($rootScope,$cookies){
 
 })
 
-.controller('mainController', function($scope) {
+.controller('MinSizeChatController', function($scope) {
 
     $scope.data = {visible: false};
 
